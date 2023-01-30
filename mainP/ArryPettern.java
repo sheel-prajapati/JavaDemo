@@ -7,14 +7,14 @@ public class ArryPettern {
   
   int i,j,k,m,n;
   //////////  For loop STart ///////////////
-  for(i=0;i<10;i++) {
+  for(i=0;i<=10;i++) {
 	  if (i<5) {
 		    for(m=5;m>i;m--) {
 			  System.out.print(" ");
 		    }
-		    
+		    System.out.print("*");
 	        for(k=0;k<i;k++) {
-		     System.out.print("*");
+		     System.out.print("**");
 	        }
 	   System.out.println();
 	  }
@@ -23,10 +23,13 @@ public class ArryPettern {
 		   for(n=5;n<i;n++) {
 			  System.out.print(" "); 
 		   }
+		   
 	       for(j=10;j>i;j--) {
-		      System.out.print("*");
+		      System.out.print("**");
 	       }
+	       System.out.print("*");
 	   System.out.println();
+	   
 	  }	  
   }
   
